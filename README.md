@@ -290,7 +290,7 @@ In the "uint8_t" array, each character is signed.<br>Here is an example:
 In this array, the code "0xFF" means full filling, and "0x00" on the contrary means emptiness.
 
 As a result, I generated two fonts:
-<details><summary>PTMono is a fully monospaced font (supported characters under spoiler)</summary>
+<details><summary>PTMono is a fully monospaced font (supported characters under the spoiler)</summary>
 
 | Code   | Symbol |
 | ------ | :----: |
