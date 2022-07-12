@@ -1,7 +1,7 @@
 # Моноширинные шрифты для m5stack (RUS/ENG)
 В программе "GFX Font Creator", предназначенной для генерации шрифтов под m5stack, к сожалению нет возможности сгенерировать моноширинный шрифт.
 
-Даже если вы скачали моноширинный шрифт в интернете, то на выходе из этой программы далеко не все символы получатся моноширинными.<br>*Например точка, двоеточие, пробел и т. п.*
+Даже если вы скачали моноширинный шрифт в интернете, то в результате работы этой программы далеко не все символы получатся моноширинными.<br>*Например точка, двоеточие, пробел и т. п.*
 
 Ссылка на программу: https://github.com/m5stack/FontCreator
 
@@ -11,7 +11,7 @@
 2. Устанавливаем его на ваш ПК
 3. Выбираем его в программе "GFX Font Creator".<br>Я делал так: <br><img src="https://github.com/tixset/m5stack_monospace_fonts/blob/main/screenshots/GFXFontCreator.png?raw=true">
 4. Нажимаем кнопку "Generate".
-5. Открываем сгенерированный файл м расширением ".h" и в массиве "GFXglyph" вычисляем максимальное значение в четвертом столбце.
+5. Открываем сгенерированный файл с расширением ".h" и в массиве "GFXglyph" вычисляем максимальное значение в четвертом столбце.
 6. Меняем все значения четвертого столбца на максимальное.
 7. Готово.
 
@@ -260,7 +260,7 @@
 # Monospace fonts for m5stack (RUS/ENG)
 In the program "GFX Font Creator", designed to generate fonts for m5stack, unfortunately there is no way to generate a monospaced font.
 
-Even if you downloaded a monospaced font on the Internet, not all characters will turn out to be monospaced at the exit of this program.<br>*For example, dot, colon, space, etc.*
+Even if you downloaded a monospaced font on the Internet, as a result of this program, not all characters will turn out to be monospaced.<br>*For example, dot, colon, space, etc.*
   
 Link to the program: https://github.com/m5stack/FontCreator
 
